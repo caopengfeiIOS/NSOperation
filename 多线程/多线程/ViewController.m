@@ -21,7 +21,7 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self syncMain];
+    [self asyncMain];
 }
 
 //****      主队列               ***//
